@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ship_pygame"
+name = "alien-invasion"
 version = "0.1.0"
 description = ""
 authors = ["Dongcheng Wang <1219782000@qq.com>"]

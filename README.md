@@ -6,14 +6,20 @@
 
 安装 Python 3.8+
 
-安装 poetry
+如果没有，请安装 poetry
 
 ```
 pip install poetry
 ```
 
-然后切换到根目录，执行
+然后切换到根目录，安装依赖
 
 ```
 poetry install
+```
+
+最后运行
+
+```
+poetry run python alien_invasion.py
 ```

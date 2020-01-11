@@ -12,6 +12,7 @@ def run_game():
         (ai_settings.screen_width, ai_settings.screen_height)
     )
     pygame.display.set_caption("外星人来了")
+
     ship = Ship(ai_settings, screen)
     bullets = Group()
     aliens = Group()
@@ -20,7 +21,7 @@ def run_game():
     while True:
         gf.check_events(ai_settings, screen, ship, bullets)
         ship.update()
-        gf.update_bullets(bullets)
+        gf.update_bullets(ai_settings, screen, ship, aliens, bullets)
         gf.update_aliens(ai_settings, aliens)
         gf.update_screen(ai_settings, screen, ship, aliens, bullets)
 
