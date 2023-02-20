@@ -1,12 +1,14 @@
-pdm.lock
-
 # IDEs
 .vscode/
 .idea/
 .vs/
 
+.pdm.toml
+__pypackages__/
+*.egg-info/
+
 # Caches
 **/__pycache__/
-**/.mypy_cache/
-**/.pytest_cache/
-**/.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/

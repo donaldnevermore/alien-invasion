@@ -1,19 +1,11 @@
-[project]
-name = ""
-version = ""
-description = ""
-authors = [
-    {name = "Donald33 D. Nevermore", email = "donald33wang@gmail.com"},
-]
-dependencies = [
-    "pygame>=2.1.2",
-]
-requires-python = ">=3.10"
-license = {text = "MIT"}
-
-[build-system]
-requires = ["pdm-pep517>=1.0.0"]
-build-backend = "pdm.pep517.api"
-
-[tool]
 [tool.pdm]
+
+[project]
+name = "alien-invasion"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Donald33 Wang", email = "donald33wang@gmail.com" }]
+dependencies = [
+]
+requires-python = ">=3.11"
+license = { text = "MIT" }
