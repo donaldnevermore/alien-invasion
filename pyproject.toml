@@ -5,7 +5,6 @@ name = "alien-invasion"
 version = "0.1.0"
 description = ""
 authors = [{ name = "Donald33 Wang", email = "donald33wang@gmail.com" }]
-dependencies = [
-]
+dependencies = ["pygame>=2.5.0"]
 requires-python = ">=3.11"
 license = { text = "MIT" }

@@ -3,12 +3,12 @@
 .idea/
 .vs/
 
-.pdm.toml
-__pypackages__/
+.pdm-python
+.venv/
 *.egg-info/
 
 # Caches
 **/__pycache__/
-.mypy_cache/
-.pytest_cache/
-.ipynb_checkpoints/
+**/.mypy_cache/
+**/.pytest_cache/
+**/.ipynb_checkpoints/
